@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    padding: 0;
+    width:100%;
+    height:100vh;
+    font-family: 'Roboto Slab', serif;
+    user-select: none;
+    
+
+}
+
+.app{
+    display: flex;
+    padding:2%;
+    }
+
+.sidebar{
+    height:100vh;
+    padding:0px;
+    width:30%;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.50);
+
+}
+
+.sidebar-head{
+    padding:1px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+.sidebar-head > h1 {
+    font-weight:900;
+}
+
+
+.add{
+    margin-left: auto;
+    background-color: rgba(47, 165, 243, 0.911);
+    width:17%;
+    text-align: center;
+    height:35px;
+    color:white;
+    border-radius: 12px;
+    cursor:pointer;
+    font-size:21px;
+    padding: 5px 2px;    
+    font-weight:500;
+}
+
+.add:hover{
+    background-color: rgba(37, 192, 253, 0.897);
+    transform: scale(1.1,1);
+
+}
+
+.sidebar-note{
+    display: flex;
+    padding:1px 5px;
+    align-items: center;
+    
+}
+
+.sidebar-notes{
+    margin-top:-15px;
+    padding:1px 5px;
+}
+
+.title{
+    font-size:20px;
+}
+
+.delete{
+    margin-left: auto;
+    background-color: rgba(243, 53, 47, 0.836);
+    width:17%;
+    text-align: center;
+    color:white;
+    border-radius: 12px;
+    cursor:pointer;
+    font-size:21px;
+    padding: 15px 5px;    
+    font-weight:500;
+    margin-top: auto;
+    font-size:19px;
+    transition: transform 0.1s ;
+}
+
+.delete:hover{
+    background-color: rgb(248, 51, 44);
+    transform: scale(1.05,1.05);
+    border:red;
+}
+
+.sidebar-body{
+    line-height:2px;
+    margin-top: 0px;
+    padding: 1px 5px;
+    margin-top: 30px;
+} 
+
+.sidebar-body:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.sidebar-body.active
+{
+    background-color: rgb(60, 168, 235);
+    color:white;
+}
+
+
+ .sidebar-notes > h5 {
+     font-weight:500;
+     font-size:12px;
+} 
+
+
+.main{
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.50);
+    height:100vh;
+    width: 70%;
+    margin-left: 20px;
+}
+.text{
+    padding: 5px;
+    text-indent:10px;
+}
+.text > input{
+    border:4px solid rgba(26, 112, 240, 0.616);
+    width:99%;
+    height:30px;
+    display: block;
+    background-color: transparent;
+
+}
+
+.text2{
+    padding: 12px;
+}
+
+.text2 > textarea{
+    height:320px;
+    width:99%;
+    margin-top:15px;
+    text-indent: 10px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: transparent;
+}
+
+.title2{
+    padding: 10px;
+    line-height: 5px;
+    background-color:rgba(128, 128, 128, 0.322);
+    height:41%;
+}
+.title > h2{
+    font-size:22px;
+}
+
+.title > p{
+    font-size:15px;
+    font-weight:500;
+}
+
+.no-node{
+    color:grey;
+    font-size:25px;
+    padding:20%;
+    font-size:35px;
+}
+
+.preview-text{
+    line-height:20px;
+}
